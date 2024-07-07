@@ -1,0 +1,17 @@
+.logo {
+  background: linear-gradient(to right, #161480, #eb7e30);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
