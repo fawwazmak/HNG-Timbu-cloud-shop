@@ -9,7 +9,10 @@ const MyNavbar = () => {
     <>
       <Navbar bg="light" expand="lg" className="px-lg-5 px-3">
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="order-0" />
-        <Navbar.Brand as={Link} to="/" className="order-1 mx-auto mx-lg-0 logo fs-4"
+        <Navbar.Brand
+          as={Link}
+          to="/"
+          className="order-1 mx-auto mx-lg-0 logo fs-4"
           style={{ fontFamily: "kotta one" }}
         >
           Elegant Store
@@ -38,7 +41,9 @@ const MyNavbar = () => {
             </Nav.Link>
           </Nav>
           <Nav className="ms-auto d-none d-lg-flex">
-            <Rbutton btnText="Login" btnColor="primary" />
+            <Button className="bg-primary d-lg-block d-none py-2 px-5">
+              Login
+            </Button>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

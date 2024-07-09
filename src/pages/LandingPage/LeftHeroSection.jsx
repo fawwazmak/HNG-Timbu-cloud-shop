@@ -1,7 +1,13 @@
 import React from "react";
-import Rbutton from "../../components/Rbutton";
+import { Button } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 const LeftHeroSection = () => {
+   const navigate = useNavigate();
+
+   const goToProductPage = () => {
+     navigate("/products"); 
+   };
   return (
     <>
       <div className="col-lg-6 col-12 d-flex flex-column gap-4">
@@ -15,10 +21,9 @@ const LeftHeroSection = () => {
           </p>
         </div>
 
-        <Rbutton
-          btnText="Explore Now"
-          classname="bg-primary d-lg-block d-none"
-        />
+        <Button className="bg-primary d-lg-block d-none w-25 py-3" onClick={goToProductPage}>
+          Explore Now
+        </Button>
       </div>
     </>
   );
