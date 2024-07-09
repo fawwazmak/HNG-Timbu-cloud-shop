@@ -1,5 +1,6 @@
 import React from 'react';
-import Herosection from '../components/heroSection/Herosection';
+import Herosection from './Herosection';
+import ProductPage from '../productPage/ProductPage';
 
 const LandingPage = () => {
   return (

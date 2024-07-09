@@ -1,11 +1,14 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 
-const Rbutton = ({ btnText, btnColor }) => {
+const Rbutton = ({ btnText, classname }) => {
   return (
     <>
       <div>
-        <Button className={`bg-${btnColor}`}>{btnText}</Button>
+        <Button
+          className={classname} style={{ paddingLeft: "30px", paddingRight: "30px" }}>
+          {btnText}
+        </Button>
       </div>
     </>
   );
