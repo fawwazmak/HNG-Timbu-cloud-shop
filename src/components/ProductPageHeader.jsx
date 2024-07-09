@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <>
       <div className="">
-        <div className="text-center d-lg-flex d-none flex-column align-items-center">
+        <div className="text-center d-lg-flex d-none flex-column align-items-center mt-4">
           <h1>Best Selling</h1>
           <p>
             Select from Our of quality and Trending bags tailored to your
