@@ -77,7 +77,7 @@ const images = [
 
 const AllBags = () => {
   return (
-    <div className="row">
+    <div className="row gy-4">
       {images.map((image, index) => (
         <div className="col-lg-4 col-md-6" key={index}>
           <BagCard
