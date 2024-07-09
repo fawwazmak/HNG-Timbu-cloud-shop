@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/navbar/Navbar";
 import LandingPage from "./pages/LandingPage/LandingPage";
 import ProductPage from "./pages/productPage/ProductPage";
-import ListingPage from "./pages/categoryPage/ListingPage";
+import Category from "./pages/categoryPage/CategoryPage";
 import CartPage from "./pages/cart/CartPage"
 import NoPage from "./pages/NoPage";
 
@@ -15,7 +15,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="products" element={<ProductPage />} />
-        <Route path="category" element={<ListingPage />} />
+        <Route path="category" element={<Category />} />
         <Route path="cart" element={<CartPage />} />
         <Route path="*" element={<NoPage />} />
       </Routes>

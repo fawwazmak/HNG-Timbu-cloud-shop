@@ -1,12 +1,14 @@
 import React from "react";
-import Header from "../../components/ProductPageHeader";
+import BagCard from "../../components/bagsInProductPage/BagCard";
+import test from "/categoryPageImages/diorPeachBag.png";
 import AllBags from "../../components/bagsInProductPage/AllBags";
+import ProductPageSubNav from "../../components/ProductPageSubNav";
 
 const ProductPage = () => {
   return (
     <>
-      <div className="">
-        <Header />
+      <div className="px-5 pt-5 pb-3">
+        <ProductPageSubNav />
         <AllBags />
       </div>
     </>

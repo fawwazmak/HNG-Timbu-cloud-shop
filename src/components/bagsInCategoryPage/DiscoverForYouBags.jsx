@@ -1,14 +1,14 @@
 import React from "react";
 import BagCard from "./BagCard";
-import fendiBag from "/productPageImages/fendiRedBag.png";
-import christaBag from "/productPageImages/christaGoldBag.png";
-import zaraBag from "/productPageImages/zaraOrangeBag.png";
-import channelBag from "/productPageImages/channelAshBag.png";
-import diorBag from "/productPageImages/diorPeachBag.png";
-import vittionBag from "/productPageImages/viitonBrownBag.png";
-import choelBag from "/productPageImages/choelBrownBag.png";
-import pradaBlueBag from "/productPageImages/pradaBlueBag.png";
-import gucciBag from "/productPageImages/gucciBrownBag.png";
+import fendiBag from "/categoryPageImages/fendiRedBag.png";
+import christaBag from "/categoryPageImages/christaGoldBag.png";
+import zaraBag from "/categoryPageImages/zaraOrangeBag.png";
+import channelBag from "/categoryPageImages/channelAshBag.png";
+import diorBag from "/categoryPageImages/diorPeachBag.png";
+import vittionBag from "/categoryPageImages/viitonBrownBag.png";
+import choelBag from "/categoryPageImages/choelBrownBag.png";
+import pradaBlueBag from "/categoryPageImages/pradaBlueBag.png";
+import gucciBag from "/categoryPageImages/gucciBrownBag.png";
 
 const AllBags = () => {
   const images = [
