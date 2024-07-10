@@ -6,7 +6,7 @@ import Bag from "/smallBag.png";
 const RightSideCheckout = () => {
   return (
     <>
-      <div className="border border-dark-subtle p-5">
+      <div className="border border-dark-subtle p-5 d-md-block d-none">
         <h3 className="text-center">Order Summary</h3>
         <div className="d-flex flex-column p-4 border border-2 border-dark-subtle rounded-3">
           <div className="align-self-end">
@@ -55,7 +55,7 @@ const RightSideCheckout = () => {
       </div>
 
       <div className="border border-dark-subtle p-5 mb-5">
-        <div className="fs-4">
+        <div className="fs-4 d-md-block d-none">
           <div className="d-flex justify-content-between">
             <p>Subtotal</p>
             <p>#100,000</p>
@@ -77,9 +77,7 @@ const RightSideCheckout = () => {
           </div>
         </div>
 
-        <Button className="bg-primary d-lg-block d-none py-3 px-5 mx-auto">
-          PAY NOW
-        </Button>
+        <Button className="bg-primary py-3 px-5 mx-auto">PAY NOW</Button>
       </div>
     </>
   );
