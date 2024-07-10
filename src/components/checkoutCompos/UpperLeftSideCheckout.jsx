@@ -3,7 +3,7 @@ import React from "react";
 const LeftSideCheckout = () => {
   return (
     <div>
-      <h1>Billing Information</h1>
+      <h3>Billing Information</h3>
       <form action="">
         <div>
           <p className="fw-medium fs-5">Full Name</p>

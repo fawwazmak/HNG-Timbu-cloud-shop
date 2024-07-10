@@ -1,12 +1,19 @@
-import React from 'react'
-import LeftSideCheckout from '../../components/checkoutCompos/LeftSideCheckout'
+import React from "react";
+import LeftSideCheckout from "../../components/checkoutCompos/LeftSideCheckout";
+import RightSideCheckout from "../../components/checkoutCompos/RightSideCheckout";
 
 const CheckoutPage = () => {
   return (
-    <div>
+    <div className="row">
+      <div className="col-6">
         <LeftSideCheckout />
-    </div>
-  )
-}
+      </div>
 
-export default CheckoutPage
+      <div className="col-6">
+        <RightSideCheckout />
+      </div>
+    </div>
+  );
+};
+
+export default CheckoutPage;
