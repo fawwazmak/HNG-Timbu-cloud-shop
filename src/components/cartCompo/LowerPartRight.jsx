@@ -7,7 +7,7 @@ const LowerPartRight = () => {
   const navigate = useNavigate();
 
   const goToCheckoutPage = () => {
-    navigate("/cart");
+    navigate("/checkout");
   };
   const [quantity, setQuantity] = useState(1);
 
