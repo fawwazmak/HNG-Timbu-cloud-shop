@@ -1,8 +1,14 @@
 import React, { useState } from "react";
 import { FiHeart } from "react-icons/fi";
 import { FiCopy } from "react-icons/fi";
+import { useNavigate } from "react-router-dom";
 
 const LowerPartRight = () => {
+  const navigate = useNavigate();
+
+  const goToCheckoutPage = () => {
+    navigate("/cart");
+  };
   const [quantity, setQuantity] = useState(1);
 
   const decreaseQuantity = () => {
@@ -49,7 +55,7 @@ const LowerPartRight = () => {
         </div>
 
         <div className="d-flex align-items-center mt-md-5 gap-4">
-          <p className="bg-warning rounded-pill my-0 py-4 px-5 text-light fw-medium">
+          <p className="bg-warning rounded-pill my-0 py-4 px-5 text-light fw-medium" onClick={goToCheckoutPage}>
             Checkout
           </p>
           <div className="d-flex align-items-center gap-3">
